@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SudokuExpert/static/css/main.745cf04e.chunk.css",
+    "main.js": "/SudokuExpert/static/js/main.ace10c7a.chunk.js",
+    "main.js.map": "/SudokuExpert/static/js/main.ace10c7a.chunk.js.map",
+    "runtime-main.js": "/SudokuExpert/static/js/runtime-main.772a51e3.js",
+    "runtime-main.js.map": "/SudokuExpert/static/js/runtime-main.772a51e3.js.map",
+    "static/css/2.821458bd.chunk.css": "/SudokuExpert/static/css/2.821458bd.chunk.css",
+    "static/js/2.88e45009.chunk.js": "/SudokuExpert/static/js/2.88e45009.chunk.js",
+    "static/js/2.88e45009.chunk.js.map": "/SudokuExpert/static/js/2.88e45009.chunk.js.map",
+    "index.html": "/SudokuExpert/index.html",
+    "precache-manifest.b191ef86c4e30aad1ff61e24d6ceda5e.js": "/SudokuExpert/precache-manifest.b191ef86c4e30aad1ff61e24d6ceda5e.js",
+    "service-worker.js": "/SudokuExpert/service-worker.js",
+    "static/css/2.821458bd.chunk.css.map": "/SudokuExpert/static/css/2.821458bd.chunk.css.map",
+    "static/css/main.745cf04e.chunk.css.map": "/SudokuExpert/static/css/main.745cf04e.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.772a51e3.js",
+    "static/css/2.821458bd.chunk.css",
+    "static/js/2.88e45009.chunk.js",
+    "static/css/main.745cf04e.chunk.css",
+    "static/js/main.ace10c7a.chunk.js"
+  ]
+}
