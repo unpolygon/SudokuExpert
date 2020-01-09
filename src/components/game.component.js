@@ -43,7 +43,7 @@ class game extends React.Component{
                 $('button').removeClass('square-solve');
                 $('button[row='+row+'][col='+col+']').removeClass('zero-square').text(val);
                 $('button[row='+row+'][col='+col+']').addClass('square-solve solved').text(val);
-            },50*i);
+            },0*i);
         }
     }
     //animation for empty cells
@@ -202,6 +202,7 @@ class game extends React.Component{
 
     handleClearTable(){
         $('button').removeClass('zero-square square-solve solved square-prototype square-wrong square-correct');
+        $('button[class|=square').text('');
         this.setState({
             history: [
                 {squares: new Array(9).fill().map(() => new Array(9).fill(0))}

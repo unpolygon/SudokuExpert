@@ -5,17 +5,19 @@
     width: 100vw;
     font-size: 2em;
     margin: auto;
-    border-color: red;
+    /* border-color: red;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     flex: 3;
     height: 20%;
+    background-color: rgba(255, 255, 255, 0.733);
 }
 
 .NumPad button{
     background-color: transparent;
     border: none;
     outline: none;
+    color: black;
 }
 
 @media screen and (max-width:1366px){

@@ -15,10 +15,6 @@ export default class Timer extends React.Component{
         this.countup = this.countup.bind(this);
     }
 
-    // componentDidMount(){
-        // this.countup();
-    // }
-
     pad(val){
         if(val <= 9){
             return '0'+val;
@@ -46,7 +42,7 @@ export default class Timer extends React.Component{
  
     render(){
         return(
-            <div className='Timer'>
+            <div className='Timer' >
                 <div className = 'time'>
                     <span id = 'hour'>00</span> : <span id ='minute'>00</span> : <span id='second'>00</span>
                 </div>
